@@ -6,17 +6,46 @@ When selecting skills and practices, we will be using the [Mozilla Developer Net
 ## Skills Assessed / Unit Tests
 *Syntax*
 Some of the things I will be testing for is:
-  * element names are all lowercase
+
+HTML:
+  * all element and attribute names are lowercase
+  * all attribute values are in double quotes
+  * no attributes in closing tags
+  * all ID attribute names are unique on a page
+  * all multi-word attribute values use hypen-case (or dash-case)
+
+CSS:
   * no inline styles
   * in CSS use expanded syntax
+  * See [Use expanded syntax](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS#Use_expanded_syntax) example 
+      - include a space between selector and opening curley brace 
+      - Always include a semi-colon at the end of the last declaration, even though it isn't strictly necessary.
+      - Put the closing curly brace on a new line.
+      -In each declaration, put a space after the separating colon, but not before.
+      - NOTE: we opted to leave out indentation guidelines
+    * use double quotes for all values
+    * Function parameters should have spaces after their separating commas, but not before
+    * Don't use `@import`
+    * When turning off properties, always use a `0` over `none`
+    * Don't repeat the exact same selectors
+      - unless in separate `@media` queries
+    * Always apply all general styles before `@media` queries
+    * Apply a mobile-first approach to CSS
+      - use only `min-width` for your `@media` queries
+      - always have the `min-width` values increase in size as you move down the stylesheet
 
 *Semantics*
-For semantics, I will be looking at 
+For semantics, I will be looking at the following:
+  * The `<head>` and `<body>` elements are nested inside of the `<html>` element
+  * `<title>` element is inside the `<head>`
+  * All `<body>` elements are nested inside the `<body>` element
+  * The page contains only one `<h1>` element
 
 *Validation*
   * uses HTML5 doctype
   * lang attribute is set
   * charset is set to utf-8
+  * includes viewport meta tag
 
 From [HTML guidelines](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines)
 and [CSS guidelines](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/)
