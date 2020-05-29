@@ -10,6 +10,9 @@ When selecting skills and practices, we will be using the [Mozilla Developer Net
 Python® is used as the scripting language for performing tests and reports.
 We are still selecting license and folder structure.
 
+### Git branching / release model
+For this project, we'll be using the git branching model from [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen
+
 ## Skills Assessed / Unit Tests
 *Syntax*
 Some of the things I will be testing for is:
