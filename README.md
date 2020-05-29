@@ -3,6 +3,13 @@ This project is designed to assess students' ability to code clean, semantic fro
 
 When selecting skills and practices, we will be using the [Mozilla Developer Network](https://developer.mozilla.org/) as the final arbiter of styles and best practices. 
 
+## Important Notes
+* Until we have a folder structure selected and a license, we will not be accepting pull requests
+
+## Project Structure & Architecture
+Python® is used as the scripting language for performing tests and reports.
+We are still selecting license and folder structure.
+
 ## Skills Assessed / Unit Tests
 *Syntax*
 Some of the things I will be testing for is:
